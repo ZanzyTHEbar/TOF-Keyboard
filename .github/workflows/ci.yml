@@ -27,7 +27,7 @@ jobs:
           image: ghcr.io/zanzythebar/piodocker:latest
           options: -v ${{ github.workspace }}:/workspace
           run: |
-            cd ESP
+            cd AdamJames
             export OPENIRIS_CI_BUILD=1
             mkdir build 
             mkdir build/${{ matrix.target_name }}${{ matrix.target_build_type }}
@@ -43,13 +43,13 @@ jobs:
       - name: Archive Firmware name File
         # create an environment variable with the name of the firmware file by catting the firmware_name.txt file
         run: |
-          echo "FIRMWARE_NAME=$(cat ESP/build/${{ matrix.target_name }}${{ matrix.target_build_type }}/firmware_name.txt)" >> $GITHUB_ENV
+          echo "FIRMWARE_NAME=$(cat AdamJames/build/${{ matrix.target_name }}${{ matrix.target_build_type }}/firmware_name.txt)" >> $GITHUB_ENV
       - name: Archive Firmware Binaries
         uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.target_name }}${{ matrix.target_build_type }}-firmware
-          #path: "./ESP/.pio/build/${{ matrix.target_name }}${{ matrix.target_build_type }}/${{ env.FIRMWARE_NAME }}.bin"
-          path: "ESP/build/${{ matrix.target_name }}${{ matrix.target_build_type }}/${{ env.FIRMWARE_NAME }}.zip"
+          #path: "./AdamJames/.pio/build/${{ matrix.target_name }}${{ matrix.target_build_type }}/${{ env.FIRMWARE_NAME }}.bin"
+          path: "AdamJames/build/${{ matrix.target_name }}${{ matrix.target_build_type }}/${{ env.FIRMWARE_NAME }}.zip"
           retention-days: 5
           if-no-files-found: error
   release-openiris:
