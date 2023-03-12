@@ -1,0 +1,19 @@
+{
+    "name": "FancyDisplay",
+    "keywords": "esp32S3, FancyDisplay, FancyDisplay-esp32s3, keyboard, tof",
+    "description": "FancyDisplay library",
+    "authors": [
+        {
+            "name": "ZanzyTHEbar",
+            "url": "https://github.com/ZanzyTHEbar"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ZanzyTHEbar/AdamJames.git"
+    },
+    "dependencies": {},
+    "version": "0.0.0",
+    "frameworks": "arduino",
+    "platforms": "espressif32"
+}
