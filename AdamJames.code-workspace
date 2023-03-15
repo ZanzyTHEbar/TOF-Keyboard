@@ -2,9 +2,6 @@
 	"folders": [
 		{
 			"path": "ESP"
-		},
-		{
-			"path": "."
 		}
 	],
 	"settings": {

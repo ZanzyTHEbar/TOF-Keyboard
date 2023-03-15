@@ -5,7 +5,7 @@
 #include <usb_keyboard.hpp>
 #include "data/utilities/observer.hpp"
 #include "data/statemanager/StateManager.hpp"
-
+using namespace esptinyusb;
 class LocalUSBkeyboard : public IObserver<TOFSensors_e> {
   esptinyusb::USBkeyboard keyboard;
 
