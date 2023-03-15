@@ -8,7 +8,6 @@
 Tof::Tof(TwoWire* pWire)
     : i2c_object(pWire),
       sensor_vl53l4cx_sat(),
-      rangeData{0},
       showGraphicly(true) {}
 
 Tof::~Tof() {}
