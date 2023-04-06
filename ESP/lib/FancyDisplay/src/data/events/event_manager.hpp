@@ -9,7 +9,7 @@
 #include "data/utilities/observer.hpp"
 
 #include "io/i2c/multiplexer.hpp"
-#include "sensors/tof/tof.hpp"
+#include "sensors/tof/tof_vl53l0x.hpp"
 
 //! These two objects must use the same instance of Wire
 

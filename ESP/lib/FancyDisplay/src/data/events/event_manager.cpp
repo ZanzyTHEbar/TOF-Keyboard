@@ -17,7 +17,8 @@ void EventManager::begin(void) {
     while (*dev) {
       Serial.printf("Found Device at i2c addr: 0x%02X \n", *dev);
       //* add sensor to the vector
-      _tof_sensors.emplace_back(new Tof(WIRE_OBJECT));
+      _tof_sensors.emplace_back(
+          new Tof(new Adafruit_VL53L0X(), WIRE_OBJECT, (0x30 + port), 0, 1));
       Serial.println("Adding sensor to vector");
       //* initialize sensor
       _tof_sensors.back()->begin();
@@ -40,12 +41,9 @@ void EventManager::loop(void) {
     // is under 2000mm
     auto range = _tof_sensors.at(port)->getRangeData();
 
-    for (auto& r : *range) {
-      Serial.printf("Sensor at port %d has range: %d \n", port,
-                    r.rangeMilliMeter);
-      if (r.rangeMilliMeter <= 2000) {
-        notifyAll((TOFSensors_e)port);
-      }
+    Serial.printf("Sensor at port %d has range: %d \n", port, range->range);
+    if (range->range <= 2000) {
+      notifyAll((TOFSensors_e)port);
     }
   }
   // if the status is different from the previous status
