@@ -1,0 +1,2765 @@
+�03c9700,len:0xbec
+load:0x403cc700,len:0x2920
+entry 0x403c98d8
+constructor
+USB tud_task created
+[   119][I][esp32-hal-i2c.c:75] i2cInit(): Initialising I2C Master: sda=8 scl=9 freq=100000
+[   119][D][event_manager.cpp:10] begin(): [Event Manager]: Multiplexer initialized
+[   123][D][event_manager.cpp:11] begin(): [Event Manager]: Scanning for connected sensors
+Scanning Port: 0 
+Found Device at i2c addr: 0x30 
+Adding sensor to vector
+[  2178][W][Wire.cpp:301] begin(): Bus already started in Master Mode.
+[  2178][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2179][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2185][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2191][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2197][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2203][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2209][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2214][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2220][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2226][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2232][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2238][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2244][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2250][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2256][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2262][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2268][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2273][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2279][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2285][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2291][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2298][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2304][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2309][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2315][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  2321][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+Size of vector: 1 
+
+Scanning Port: 1 
+Found Device at i2c addr: 0x31 
+Adding sensor to vector
+[  4591][W][Wire.cpp:301] begin(): Bus already started in Master Mode.
+[  4591][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4592][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4598][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4604][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4610][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4616][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4622][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4627][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4633][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4639][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4645][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4651][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4657][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4663][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4669][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4675][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4681][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4686][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4692][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4698][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4704][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4710][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4717][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4722][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4728][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+[  4734][E][Wire.cpp:513] requestFrom(): i2cRead returned Error -1
+Size of vector: 2 
+
+Scanning Port: 2 
+Size of vector: 2 
+
+Scanning Port: 3 
+Size of vector: 2 
+
+Scanning Port: 4 
+Size of vector: 2 
+
+Scanning Port: 5 
+Size of vector: 2 
+
+Scanning Port: 6 
+Size of vector: 2 
+
+Scanning Port: 7 
+Size of vector: 2 
+
+[ 11074][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11074][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11079][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11095][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11095][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11103][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11118][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11119][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11126][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11141][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11142][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11149][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11165][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11165][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11172][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11188][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11188][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11195][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11211][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11211][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11218][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11234][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11234][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11242][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11257][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11258][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11265][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11280][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11281][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11288][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11304][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11304][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11311][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11327][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11327][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11334][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11350][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11350][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11357][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11373][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11374][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11381][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11396][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11397][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11404][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11420][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11420][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11427][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11443][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11443][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11450][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11466][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11466][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11473][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11489][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11489][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11496][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11512][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11513][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11520][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11535][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11536][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11543][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11559][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11559][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11566][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11582][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11582][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11589][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11605][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11605][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11612][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11628][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11628][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11636][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11651][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11652][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11659][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11674][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11675][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11682][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11698][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11698][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11705][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11721][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11721][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11728][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11744][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11744][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11751][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11767][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11768][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11775][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11790][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11791][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11798][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11813][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11814][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11821][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11837][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11837][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11844][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11860][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11860][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11867][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11883][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11883][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11890][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11906][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11907][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11914][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11929][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11930][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11937][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11953][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11953][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 11960][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 11976][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 11976][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 11983][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 11999][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 11999][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12006][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12022][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12022][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12030][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12045][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12046][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12053][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12068][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12069][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12076][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12092][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12092][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12099][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12115][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12115][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12122][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12138][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12138][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12145][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12161][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12161][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12169][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12184][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12185][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12192][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12207][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12208][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12215][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12231][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12231][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12238][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12254][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12254][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12261][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12277][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12277][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12284][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12300][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12301][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12308][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12323][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12324][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12331][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12347][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12347][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12354][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12370][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12370][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12377][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12393][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12393][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12400][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12416][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12416][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12423][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12439][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12440][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12447][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12462][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12463][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12470][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12486][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12486][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12493][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12509][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12509][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12516][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12532][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12532][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12539][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12555][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12555][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12563][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12578][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12579][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12586][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12601][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12602][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12609][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12625][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12625][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12632][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12648][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12648][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12655][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12671][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12671][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12678][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12694][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12695][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12702][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12717][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12718][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12725][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12740][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12741][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12748][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12764][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12764][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12771][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12787][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12787][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12794][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12810][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12810][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12817][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12833][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12834][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12841][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12856][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12857][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12864][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12880][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12880][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12887][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12903][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12903][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12910][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12926][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12926][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12933][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12949][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12949][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 12957][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 12972][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 12973][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 12980][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 12995][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 12996][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13003][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13019][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13019][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13026][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13042][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13042][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13049][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13065][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13065][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13072][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13088][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13088][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13096][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13111][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13112][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13119][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13134][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13135][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13142][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13158][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13158][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13165][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13181][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13181][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13188][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13204][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13204][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13211][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13227][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13228][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13235][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13250][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13251][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13258][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13273][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13274][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13281][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13297][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13297][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13304][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13320][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13320][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13327][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13343][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13343][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13350][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13366][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13367][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13374][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13389][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13390][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13397][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13413][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13413][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13420][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13436][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13436][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13443][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13459][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13459][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13466][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13482][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13482][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13490][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13505][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13506][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13513][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13528][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13529][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13536][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13552][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13552][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13559][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13575][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13575][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13582][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13598][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13598][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13605][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13621][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13622][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13629][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13644][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13645][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13652][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13667][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13668][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13675][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13691][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13691][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13698][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13714][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13714][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13721][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13737][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13737][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13744][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13760][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13761][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13768][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13783][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13784][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13791][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13807][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13807][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13814][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13830][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13830][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13837][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13853][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13853][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13860][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13876][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13876][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13883][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13899][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13900][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13907][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13922][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13923][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13930][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13946][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13946][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13953][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 13969][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 13969][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 13976][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 13992][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 13992][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 13999][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14015][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14015][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14023][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14038][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14039][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14046][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14061][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14062][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14069][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14085][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14085][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14092][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14108][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14108][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14115][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14131][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14131][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14138][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14154][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14155][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14162][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14177][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14178][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14185][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14200][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14201][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14208][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14224][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14224][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14231][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14247][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14247][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14254][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14270][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14270][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14277][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14293][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14294][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14301][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14316][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14317][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14324][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14340][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14340][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14347][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14363][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14363][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14370][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14386][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14386][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14393][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14409][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14409][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14417][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14432][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14433][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14440][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14455][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14456][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14463][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14479][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14479][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14486][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14502][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14502][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14509][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14525][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14525][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14532][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14548][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14549][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14556][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14571][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14572][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14579][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14594][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14595][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14602][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14618][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14618][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14625][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14641][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14641][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14648][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14664][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14664][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14671][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14687][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14688][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14695][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14710][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14711][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14718][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14734][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14734][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14741][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14757][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14757][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14764][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14780][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14780][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14787][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14803][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14803][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14810][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14826][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14827][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14834][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14849][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14850][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14857][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14873][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14873][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14880][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14896][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14896][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14903][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14919][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14919][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14926][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14942][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14942][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14950][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 14965][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 14966][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 14973][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 14988][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 14989][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 14996][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15012][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15012][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15019][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15035][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15035][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15042][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15058][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15058][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15065][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15081][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15082][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15089][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15104][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15105][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15112][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15127][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15128][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15135][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15151][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15151][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15158][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15174][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15174][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15181][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15197][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15197][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15204][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15220][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15221][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15228][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15243][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15244][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15251][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15267][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15267][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15274][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15290][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15290][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15297][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15313][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15313][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15320][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15336][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15336][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15344][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15359][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15360][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15367][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15382][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15383][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15390][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15406][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15406][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15413][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15429][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15429][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15436][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15452][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15452][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15459][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15475][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15476][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15483][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15498][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15499][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15506][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15521][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15522][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15529][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15545][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15545][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15552][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15568][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15568][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15575][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15591][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15591][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15598][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15614][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15615][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15622][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15637][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15638][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15645][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15661][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15661][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15668][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15684][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15684][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15691][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15707][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15707][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15714][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15730][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15730][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15737][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15753][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15754][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15761][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15776][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15777][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15784][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15800][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15800][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15807][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15823][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15823][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15830][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15846][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15846][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15853][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15869][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15869][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15877][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15892][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15893][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15900][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15915][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15916][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15923][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15939][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15939][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15946][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 15962][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 15962][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 15969][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 15985][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 15985][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 15992][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16008][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16009][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16016][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16031][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16032][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16039][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16054][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16055][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16062][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16078][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16078][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16085][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16101][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16101][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16108][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16124][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16124][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16131][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16147][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16148][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16155][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16170][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16171][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16178][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16194][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16194][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16201][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16217][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16217][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16224][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16240][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16240][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16247][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16263][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16263][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16270][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16286][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16287][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16294][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16309][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16310][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16317][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16333][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16333][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16340][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16356][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16356][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16363][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16379][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16379][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16386][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16402][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16402][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16410][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16425][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16426][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16433][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16448][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16449][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16456][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16472][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16472][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16479][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16495][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16495][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16502][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16518][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16518][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16525][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16541][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16542][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16549][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16564][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16565][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16572][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16587][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16588][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16595][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16611][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16611][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16618][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16634][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16634][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16641][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16657][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16657][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16664][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16680][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16681][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16688][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16703][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16704][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16711][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16727][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16727][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16734][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16750][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16750][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16757][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16773][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16773][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16780][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16796][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16796][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16804][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16819][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16820][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16827][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16842][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16843][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16850][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16866][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16866][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16873][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16889][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16889][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16896][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16912][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16912][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16919][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16935][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16935][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16943][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 16958][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 16959][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 16966][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 16981][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 16982][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 16989][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17005][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17005][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17012][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17028][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17028][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17035][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17051][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17051][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17058][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17074][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17075][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17082][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17097][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17098][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17105][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17121][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17121][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17128][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17144][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17144][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17151][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17167][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17167][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17174][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17190][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17190][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17197][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17213][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17214][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17221][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17236][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17237][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17244][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17260][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17260][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17267][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17283][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17283][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17290][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17306][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17306][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17313][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17329][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17329][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17337][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17352][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17353][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17360][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17375][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17376][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17383][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17399][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17399][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17406][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17422][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17422][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17429][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17445][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17445][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17452][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17468][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17469][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17476][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17491][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17492][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17499][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17514][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17515][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17522][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17538][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17538][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17545][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17561][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17561][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17568][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17584][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17584][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17591][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17607][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17608][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17615][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17630][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17631][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17638][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17654][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17654][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17661][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17677][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17677][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17684][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17700][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17700][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17707][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17723][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17723][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17731][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17746][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17747][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17754][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17769][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17770][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17777][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17793][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17793][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17800][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17816][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17816][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17823][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17839][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17839][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17846][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17862][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17862][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17870][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17885][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17886][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17893][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17908][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17909][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17916][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17932][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17932][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17939][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 17955][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 17955][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 17962][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 17978][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 17978][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 17985][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18001][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18002][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18009][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18024][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18025][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18032][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18048][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18048][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18055][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18071][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18071][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18078][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18094][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18094][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18101][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18117][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18117][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18124][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18140][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18141][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18148][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18163][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18164][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18171][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18187][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18187][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18194][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18210][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18210][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18217][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18233][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18233][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18240][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18256][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18256][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18264][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18279][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18280][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18287][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18302][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18303][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18310][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18326][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18326][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18333][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18349][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18349][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18356][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18372][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18372][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18379][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18395][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18396][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18403][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18418][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18419][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18426][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18441][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18442][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18449][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18465][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18465][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18472][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18488][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18488][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18495][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18511][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18511][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18518][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18534][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18535][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18542][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18557][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18558][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18565][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18581][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18581][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18588][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18604][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18604][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18611][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18627][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18627][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18634][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18650][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18650][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18657][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18673][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18674][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18681][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18696][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18697][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18704][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18720][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18720][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18727][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18743][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18743][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18750][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18766][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18766][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18773][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18789][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18789][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18797][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18812][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18813][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18820][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18835][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18836][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18843][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18859][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18859][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18866][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18882][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18882][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18889][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18905][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18905][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18912][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18928][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18929][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18936][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18951][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18952][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 18959][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 18974][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 18975][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 18982][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 18998][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 18998][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19005][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19021][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19021][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19028][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19044][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19044][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19051][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19067][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19068][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19075][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19090][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19091][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19098][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19114][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19114][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19121][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19137][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19137][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19144][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19160][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19160][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19167][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19183][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19183][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19191][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19206][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19207][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19214][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19229][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19230][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19237][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19253][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19253][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19260][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19276][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19276][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19283][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19299][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19299][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19306][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19322][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19323][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19330][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19345][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19346][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19353][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19368][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19369][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19376][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19392][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19392][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19399][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19415][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19415][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19422][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19438][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19438][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19445][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19461][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19462][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19469][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19484][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19485][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19492][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19508][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19508][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19515][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19531][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19531][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19538][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19554][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19554][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19561][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19577][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19577][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19584][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19600][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19601][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19608][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19623][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19624][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19631][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19647][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19647][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19654][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19670][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19670][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19677][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19693][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19693][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19700][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19716][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19716][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19724][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19739][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19740][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19747][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19762][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19763][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19770][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19786][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19786][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19793][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19809][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19809][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19816][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19832][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19832][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19839][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19855][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19856][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19863][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19878][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19879][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19886][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19901][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19902][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19909][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19925][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19925][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19932][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19948][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19948][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 19955][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 19971][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 19971][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 19978][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 19994][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 19995][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20002][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20017][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20018][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20025][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20041][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20041][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20048][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20064][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20064][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20071][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20087][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20087][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20094][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20110][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20110][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20118][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20133][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20134][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20141][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20156][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20157][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20164][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20180][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20180][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20187][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20203][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20203][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20210][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20226][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20226][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20233][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20249][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20250][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20257][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20272][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20273][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20280][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20295][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20296][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20303][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20319][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20319][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20326][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20342][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20342][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20349][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20365][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20365][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20372][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20388][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20389][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20396][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20411][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20412][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20419][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20435][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20435][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20442][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20458][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20458][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20465][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20481][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20481][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20488][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20504][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20504][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20511][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20527][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20528][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20535][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20550][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20551][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20558][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20574][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20574][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20581][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20597][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20597][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20604][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20620][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20620][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20627][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20643][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20643][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20651][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20666][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20667][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20674][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20689][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20690][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20697][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20713][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20713][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20720][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20736][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20736][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20743][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20759][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20759][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20766][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20782][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20783][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20790][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20805][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20806][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20813][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20828][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20829][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20836][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20852][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20852][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20859][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20875][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20875][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20882][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20898][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20898][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20905][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20921][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20922][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20929][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20944][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20945][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20952][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 20968][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 20968][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 20975][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 20991][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 20991][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 20998][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21014][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21014][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21021][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21037][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21037][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21044][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21060][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21061][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21068][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21083][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21084][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21091][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21107][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21107][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21114][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21130][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21130][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21137][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21153][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21153][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21160][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21176][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21176][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21184][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21199][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21200][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21207][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21222][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21223][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21230][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21246][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21246][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21253][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21269][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21269][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21276][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21292][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21292][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21299][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21315][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21316][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21323][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21338][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21339][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21346][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21362][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21362][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21369][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21385][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21385][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21392][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21408][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21408][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21415][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21431][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21431][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21438][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21454][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21455][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21462][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21477][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21478][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21485][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21501][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21501][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21508][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21524][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21524][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21531][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21547][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21547][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21554][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21570][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21570][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21578][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21593][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21594][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21601][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21616][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21617][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21624][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21640][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21640][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21647][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21663][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21663][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21670][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21686][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21686][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21693][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21709][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21709][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21717][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21732][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21733][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21740][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21755][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21756][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21763][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21779][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21779][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21786][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21802][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21802][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21809][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21825][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21825][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21832][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21848][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21849][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21856][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21871][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21872][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21879][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21895][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21895][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21902][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21918][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21918][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21925][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21941][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21941][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21948][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 21964][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 21964][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 21971][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 21987][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 21988][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 21995][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22010][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22011][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22018][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22034][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22034][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22041][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22057][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22057][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22064][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22080][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22080][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22087][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22103][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22103][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22111][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22126][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22127][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22134][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22149][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22150][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22157][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22173][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22173][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22180][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22196][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22196][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22203][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22219][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22219][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22226][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22242][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22243][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22250][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22265][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22266][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22273][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22288][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22289][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22296][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22312][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22312][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22319][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22335][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22335][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22342][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22358][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22358][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22365][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22381][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22382][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22389][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22404][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22405][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22412][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22428][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22428][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22435][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22451][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22451][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22458][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22474][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22474][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22481][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22497][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22497][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22505][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22520][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22521][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22528][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22543][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22544][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22551][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22567][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22567][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22574][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22590][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22590][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22597][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22613][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22613][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22620][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22636][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22636][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22644][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22659][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22660][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22667][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22682][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22683][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22690][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22706][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22706][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22713][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22729][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22729][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22736][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22752][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22752][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22759][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22775][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22776][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22783][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22798][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22799][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22806][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22822][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22822][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22829][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22845][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22845][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22852][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22868][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22868][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22875][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22891][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22891][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22898][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22914][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22915][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22922][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22937][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22938][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22945][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 22961][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 22961][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 22968][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 22984][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 22984][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 22991][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23007][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23007][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23014][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23030][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23030][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23038][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23053][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23054][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23061][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23076][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23077][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23084][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23100][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23100][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23107][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23123][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23123][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23130][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23146][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23146][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23153][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23169][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23170][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23177][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23192][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23193][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23200][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23215][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23216][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23223][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23239][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23239][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23246][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23262][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23262][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23269][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23285][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23285][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23292][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23308][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23309][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23316][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23331][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23332][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23339][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23355][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23355][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23362][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23378][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23378][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23385][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23401][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23401][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23408][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23424][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23424][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23431][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23447][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23448][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23455][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23470][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23471][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23478][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23494][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23494][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23501][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23517][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23517][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23524][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23540][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23540][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23547][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23563][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23563][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23571][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23586][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23587][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23594][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23609][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23610][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23617][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23633][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23633][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23640][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23656][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23656][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23663][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23679][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23679][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23686][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23702][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23703][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23710][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23725][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23726][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23733][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23748][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23749][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23756][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23772][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23772][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23779][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23795][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23795][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23802][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23818][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23818][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23825][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23841][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23842][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23849][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23864][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23865][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23872][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23888][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23888][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23895][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23911][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23911][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23918][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23934][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23934][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23941][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 23957][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 23957][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 23965][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 23980][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 23981][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 23988][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24003][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24004][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24011][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24027][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24027][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24034][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24050][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24050][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24057][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24073][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24073][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24080][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24096][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24097][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24104][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24119][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24120][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24127][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24142][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24143][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24150][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24166][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24166][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24173][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24189][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24189][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24196][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24212][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24212][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24219][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24235][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24236][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24243][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24258][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24259][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24266][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24282][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24282][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24289][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24305][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24305][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24312][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24328][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24328][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24335][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24351][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24351][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24358][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24374][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24375][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24382][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24397][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24398][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24405][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24421][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24421][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24428][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24444][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24444][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24451][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24467][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24467][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24474][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24490][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24490][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24498][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24513][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24514][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24521][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24536][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24537][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24544][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24560][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24560][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24567][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24583][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24583][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24590][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24606][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24606][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24613][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24629][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24630][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24637][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24652][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24653][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24660][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24675][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24676][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24683][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24699][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24699][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24706][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24722][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24722][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24729][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24745][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24745][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24752][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24768][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24769][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24776][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24791][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24792][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24799][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24815][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24815][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24822][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24838][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24838][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24845][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24861][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24861][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24868][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24884][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24884][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24892][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24907][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24908][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24915][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24930][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24931][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24938][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 24954][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 24954][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 24961][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 24977][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 24977][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 24984][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25000][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25000][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25007][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25023][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25024][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25031][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25046][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25047][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25054][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25069][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25070][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25077][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25093][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25093][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25100][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25116][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25116][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25123][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25139][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25139][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25146][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25162][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25163][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25170][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25185][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25186][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25193][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25209][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25209][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25216][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25232][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25232][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25239][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25255][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25255][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25262][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25278][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25278][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25285][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25301][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25302][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25309][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25324][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25325][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25332][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25348][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25348][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25355][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25371][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25371][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25378][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25394][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25394][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25401][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25417][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25417][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25425][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25440][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25441][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25448][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25463][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25464][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25471][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25487][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25487][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25494][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25510][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25510][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25517][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25533][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25533][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25540][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25556][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25557][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25564][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25579][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25580][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25587][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25602][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25603][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25610][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25626][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25626][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25633][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25649][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25649][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25656][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25672][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25672][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25679][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25695][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25696][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25703][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25718][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25719][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25726][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25742][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25742][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25749][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25765][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25765][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25772][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25788][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25788][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25795][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25811][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25811][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25818][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25834][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25835][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25842][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25857][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25858][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25865][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25881][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25881][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25888][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25904][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25904][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25911][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25927][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25927][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25934][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25950][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25950][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 25958][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 25973][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 25974][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 25981][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 25996][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 25997][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26004][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26020][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26020][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26027][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26043][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26043][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26050][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26066][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26066][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26073][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26089][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26090][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26097][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26112][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26113][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26120][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26136][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26136][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26143][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26159][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26159][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26166][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26182][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26182][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26189][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26205][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26205][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26212][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26228][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26229][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26236][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26251][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26252][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26259][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26275][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26275][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26282][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26298][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26298][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26305][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26321][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26321][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26328][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26344][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26344][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26352][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26367][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26368][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26375][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26390][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26391][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26398][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26414][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26414][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26421][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26437][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26437][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26444][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26460][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26460][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26467][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26483][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26483][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26491][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26506][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26507][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26514][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 0 has range: 0 
+[ 26529][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 1
+[ 26530][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 1
+[ 26537][D][tof_vl53l0x.cpp:38] loop(): [TOF Sensor]: Looping
+Sensor at port 1 has range: 0 
+[ 26553][D][event_manager.cpp:35] loop(): [Event Manager]: Selecting port 0
+[ 26553][D][event_manager.cpp:38] loop(): [Event Manager]: Communicating with sensor at port 0
+[ 26560][D

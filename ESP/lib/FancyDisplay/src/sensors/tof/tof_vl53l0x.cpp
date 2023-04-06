@@ -34,7 +34,9 @@ void Tof::begin() {
   }
 }
 
-void Tof::loop() {}
+void Tof::loop() {
+  log_d("[TOF Sensor]: Looping");
+}
 
 Tof::RangeData_t* Tof::getRangeData() {
   // get range data

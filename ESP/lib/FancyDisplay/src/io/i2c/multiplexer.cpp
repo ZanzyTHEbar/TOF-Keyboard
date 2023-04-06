@@ -64,7 +64,7 @@ uint8_t I2C_Multiplexer::read(uint8_t port,
   Wire.beginTransmission(addr);
   Wire.write(reg);
   Wire.endTransmission();
-  Wire.requestFrom(addr, len);
+  Wire.requestFrom(addr, len, false);
   while (Wire.available()) {
     data[i++] = Wire.read();
   }

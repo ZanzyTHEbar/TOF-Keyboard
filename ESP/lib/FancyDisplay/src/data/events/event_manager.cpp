@@ -1,7 +1,6 @@
 #include "event_manager.hpp"
 
-EventManager::EventManager()
-    : multiplexer(WIRE_OBJECT, 0x70), _tof_sensors{nullptr} {}
+EventManager::EventManager() : multiplexer(WIRE_OBJECT, 0x70), _tof_sensors{} {}
 
 EventManager::~EventManager() {}
 
@@ -33,8 +32,10 @@ void EventManager::loop(void) {
   // loop through multiplexer ports
   for (uint8_t port = 0; port < _tof_sensors.size(); port++) {
     // select the port
+    log_d("[Event Manager]: Selecting port %d", port);
     multiplexer.selectPort(port);
     // communicate with the sensor
+    log_d("[Event Manager]: Communicating with sensor at port %d", port);
     _tof_sensors.at(port)->loop();
 
     // check the distance of the sensor and notify the observers if the distance
@@ -42,10 +43,8 @@ void EventManager::loop(void) {
     auto range = _tof_sensors.at(port)->getRangeData();
 
     Serial.printf("Sensor at port %d has range: %d \n", port, range->range);
-    if (range->range <= 2000) {
+    if (range->range > 0 && range->range <= 2000) {
       notifyAll((TOFSensors_e)port);
     }
   }
-  // if the status is different from the previous status
-  // notify the observers
 }
