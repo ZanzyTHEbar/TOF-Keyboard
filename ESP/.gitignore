@@ -5,3 +5,4 @@
 .vscode/ipch
 /tools/firmware_name.txt
 /tools/__pycache__
+*.log

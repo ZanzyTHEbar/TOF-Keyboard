@@ -5,7 +5,7 @@ EventManager::EventManager() : multiplexer(WIRE_OBJECT, 0x70), _tof_sensors{} {}
 EventManager::~EventManager() {}
 
 void EventManager::begin(void) {
-  //* initialize multiplexer
+  //* initialize multiplexer and i2c bus
   multiplexer.begin();
   log_d("[Event Manager]: Multiplexer initialized");
   log_d("[Event Manager]: Scanning for connected sensors");
@@ -17,9 +17,10 @@ void EventManager::begin(void) {
       Serial.printf("Found Device at i2c addr: 0x%02X \n", *dev);
       //* add sensor to the vector
       _tof_sensors.emplace_back(
-          new Tof(new Adafruit_VL53L0X(), WIRE_OBJECT, (0x30 + port), 0, 1));
+          new Tof(new Adafruit_VL53L0X(), WIRE_OBJECT, *dev, 0, 1));
       Serial.println("Adding sensor to vector");
       //* initialize sensor
+      multiplexer.selectPort(port);
       _tof_sensors.back()->begin();
       dev++;
     }
@@ -47,4 +48,5 @@ void EventManager::loop(void) {
       notifyAll((TOFSensors_e)port);
     }
   }
+  delay(4000);
 }

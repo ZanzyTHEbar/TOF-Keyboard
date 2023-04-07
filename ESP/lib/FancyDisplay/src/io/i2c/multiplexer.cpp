@@ -18,8 +18,8 @@ uint8_t* I2C_Multiplexer::scan(uint8_t port) {
   for (address = 1; address < 127; address++) {
     if (address == _I2CMultiplexer_addr)
       continue;
-    Wire.beginTransmission(address);
-    error = Wire.endTransmission();
+    _pWire->beginTransmission(address);
+    error = _pWire->endTransmission();
     if (error == 0) {
       dev[i] = address;
       i++;
@@ -33,9 +33,9 @@ void I2C_Multiplexer::selectPort(uint8_t port) {
   // close all channels
   if (port > 8)
     return;
-  Wire.beginTransmission(_I2CMultiplexer_addr);
-  Wire.write((1 << port) & 0xFF);
-  Wire.endTransmission();
+  _pWire->beginTransmission(_I2CMultiplexer_addr);
+  _pWire->write((1 << port) & 0xFF);
+  _pWire->endTransmission();
 }
 
 void I2C_Multiplexer::write(uint8_t port,
@@ -44,14 +44,14 @@ void I2C_Multiplexer::write(uint8_t port,
                             uint8_t* buf,
                             uint8_t len) {
   selectPort(port);
-  Wire.beginTransmission(addr);
-  Wire.write(reg);
+  _pWire->beginTransmission(addr);
+  _pWire->write(reg);
   uint8_t i = 0;
   for (i = 0; i < len; i++) {
-    Wire.write(*buf);
+    _pWire->write(*buf);
     buf++;
   }
-  Wire.endTransmission();
+  _pWire->endTransmission();
 }
 
 uint8_t I2C_Multiplexer::read(uint8_t port,
@@ -61,12 +61,12 @@ uint8_t I2C_Multiplexer::read(uint8_t port,
                               uint8_t len) {
   selectPort(port);
   int i = 0;
-  Wire.beginTransmission(addr);
-  Wire.write(reg);
-  Wire.endTransmission();
-  Wire.requestFrom(addr, len, false);
-  while (Wire.available()) {
-    data[i++] = Wire.read();
+  _pWire->beginTransmission(addr);
+  _pWire->write(reg);
+  _pWire->endTransmission();
+  _pWire->requestFrom(addr, len);
+  while (_pWire->available()) {
+    data[i++] = _pWire->read();
   }
   return i;
 }

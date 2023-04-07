@@ -10,24 +10,25 @@ Tof::Tof(Adafruit_VL53L0X* psensor,
       id(id),
       shutdown_pin(shutdown_pin),
       interrupt_pin(interrupt_pin),
-      rangeData(0, 0) {}
+      rangeData() {}
 
 Tof::~Tof() {}
 
 void Tof::begin() {
-  pinMode(13, OUTPUT);
-  pinMode(shutdown_pin, OUTPUT);
-  digitalWrite(shutdown_pin, LOW);
-  if (interrupt_pin >= 0) {
-    pinMode(interrupt_pin, INPUT_PULLUP);
-  }
+  /*  pinMode(13, OUTPUT);
+   pinMode(shutdown_pin, OUTPUT);
+   digitalWrite(shutdown_pin, LOW);
+   if (interrupt_pin >= 0) {
+     pinMode(interrupt_pin, INPUT_PULLUP);
+   }
 
-  // initialize sensor
-  delay(10);
-  digitalWrite(shutdown_pin, HIGH);
-  delay(10);
-  if (!psensor->begin(id, false, i2c_object, rangeData.sensor_config)) {
-    log_e("[TOF Sensor]: Failed to boot VL53L0X: %d", id);
+   // initialize sensor
+   delay(10);
+   digitalWrite(shutdown_pin, HIGH);
+   delay(10); */
+  if (!psensor->begin(id, false, i2c_object,
+                      Adafruit_VL53L0X::VL53L0X_SENSE_LONG_RANGE)) {
+    log_e("[TOF Sensor]: Failed to boot VL53L0X:  0x%02X", id);
     log_e("[TOF Sensor]: Pausing execution until reset");
     while (1)
       ;
@@ -36,6 +37,17 @@ void Tof::begin() {
 
 void Tof::loop() {
   log_d("[TOF Sensor]: Looping");
+
+  VL53L0X_RangingMeasurementData_t measure;
+  psensor->rangingTest(&measure, false);
+
+  if (measure.RangeStatus != 4) {
+    rangeData = {
+        measure.RangeMilliMeter,
+        measure.RangeStatus,
+        measure.SignalRateRtnMegaCps,
+    };
+  }
 }
 
 Tof::RangeData_t* Tof::getRangeData() {

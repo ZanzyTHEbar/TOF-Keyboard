@@ -2,12 +2,13 @@
 #define LOCAL_KEYBOARD_HPP
 
 #include <Arduino.h>
-#include <usb_keyboard.hpp>
-#include "data/utilities/observer.hpp"
+#include <USB.h>
+#include <USBHIDKeyboard.h>
 #include "data/statemanager/StateManager.hpp"
-using namespace esptinyusb;
+#include "data/utilities/observer.hpp"
+
 class LocalUSBkeyboard : public IObserver<TOFSensors_e> {
-  esptinyusb::USBkeyboard keyboard;
+  USBHIDKeyboard keyboard;
 
  public:
   LocalUSBkeyboard();
