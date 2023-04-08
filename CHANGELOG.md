@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.1.0](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.0.1...v1.1.0) (2023-04-08)
+
+
+### 🍕 Features
+
+* add fault tolerance to sensors ([42216f7](https://github.com/ZanzyTHEbar/AdamJames/commit/42216f71de61db3a1483472459198cd1a04fa697))
+
 ## [1.0.1](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.0.0...v1.0.1) (2023-04-08)
 
 
