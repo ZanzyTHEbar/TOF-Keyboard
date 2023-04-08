@@ -15,17 +15,6 @@ Tof::Tof(Adafruit_VL53L0X* psensor,
 Tof::~Tof() {}
 
 void Tof::begin() {
-  /*  pinMode(13, OUTPUT);
-   pinMode(shutdown_pin, OUTPUT);
-   digitalWrite(shutdown_pin, LOW);
-   if (interrupt_pin >= 0) {
-     pinMode(interrupt_pin, INPUT_PULLUP);
-   }
-
-   // initialize sensor
-   delay(10);
-   digitalWrite(shutdown_pin, HIGH);
-   delay(10); */
   if (!psensor->begin(id, false, i2c_object,
                       Adafruit_VL53L0X::VL53L0X_SENSE_LONG_RANGE)) {
     log_e("[TOF Sensor]: Failed to boot VL53L0X:  0x%02X", id);
