@@ -28,7 +28,17 @@ void Tof::loop() {
   log_d("[TOF Sensor]: Looping");
 
   VL53L0X_RangingMeasurementData_t measure;
-  psensor->rangingTest(&measure, false);
+
+  if (psensor->timeoutOccurred()) {
+    log_e("[TOF Sensor]: Timeout Occurred");
+    return;
+  }
+
+  if (psensor->rangingTest(&measure, false)) {
+    log_e("[TOF Sensor]: Ranging Test Failed - Sensor: 0x%02X is unresponsive",
+          id);
+    return;
+  }
 
   if (measure.RangeStatus != 4) {
     rangeData = {
