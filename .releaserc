@@ -148,7 +148,7 @@
         [
             "@semantic-release/exec",
             {
-                "prepareCmd": "sed -i 's/\"version\": \"[0-9\\.]*\",/\"version\": \"${nextRelease.version}\",/g' ./ESP/lib/library.json",
+                "prepareCmd": "sed -i 's/\"version\": \"[0-9\\.]*\",/\"version\": \"${nextRelease.version}\",/g' .ESP/lib/FancyDisplay/library.json",
                 "publishCmd": "echo \"Releasing the binary package\""
             }
         ],
@@ -167,7 +167,7 @@
             "@semantic-release/git",
             {
                 "assets": [
-                    "ESP/lib/library.json",
+                    "ESP/lib/FancyDisplay/library.json",
                     "LICENSE*",
                     "CHANGELOG.md"
                 ],
