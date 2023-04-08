@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.0.1](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.0.0...v1.0.1) (2023-04-08)
+
+
+### 🧑‍💻 Code Refactoring
+
+*  simplify event loop ([2ecb85d](https://github.com/ZanzyTHEbar/AdamJames/commit/2ecb85d834d5ca154e06183a5ec025d80b3f7f92))
+
 ## 1.0.0 (2023-04-08)
 
 
