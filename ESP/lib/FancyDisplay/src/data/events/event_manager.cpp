@@ -11,21 +11,20 @@ void EventManager::begin(void) {
   log_d("[Event Manager]: Scanning for connected sensors");
   // scan for sensors
   for (uint8_t port = 0; port < 8; port++) {
-    Serial.printf("Scanning Port: %d \n", port);
+    log_i("[Event Manager]: Scanning Port: %d \n", port);
     uint8_t* dev = multiplexer.scan(port);
     while (*dev) {
-      Serial.printf("Found Device at i2c addr: 0x%02X \n", *dev);
+      log_i("[Event Manager]: Found Device at i2c addr: 0x%02X \n", *dev);
       //* add sensor to the vector
       _tof_sensors.emplace_back(
           new Tof(new Adafruit_VL53L0X(), WIRE_OBJECT, *dev, 0, 1));
-      Serial.println("Adding sensor to vector");
+      log_d("[Event Manager]: Adding sensor to vector");
       //* initialize sensor
       multiplexer.selectPort(port);
       _tof_sensors.back()->begin();
       dev++;
     }
-    Serial.printf("Size of vector: %d \n", _tof_sensors.size());
-    Serial.println();
+    log_d("[Event Manager]: Size of vector: %d \n", _tof_sensors.size());
   }
 }
 
@@ -43,10 +42,11 @@ void EventManager::loop(void) {
     // is under 2000mm
     auto range = _tof_sensors.at(port)->getRangeData();
 
-    Serial.printf("Sensor at port %d has range: %d \n", port, range->range);
+    log_i("[Event Manager]: Sensor at port %d has range: %d \n", port,
+          range->range);
     if (range->range > 0 && range->range <= 2000) {
       notifyAll((TOFSensors_e)port);
     }
   }
-  delay(4000);
+  delay(100);
 }

@@ -57,4 +57,9 @@ class ISubject {
     return;
   }
 };
+
+template <typename T, size_t N>
+size_t array_count(const T (&)[N]) {
+  return N;
+}
 #endif  // OBSERVER_HPP

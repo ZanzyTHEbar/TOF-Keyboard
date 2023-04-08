@@ -10,6 +10,8 @@
 class LocalUSBkeyboard : public IObserver<TOFSensors_e> {
   USBHIDKeyboard keyboard;
 
+  void keyEvent(uint8_t event);
+
  public:
   LocalUSBkeyboard();
   ~LocalUSBkeyboard();
