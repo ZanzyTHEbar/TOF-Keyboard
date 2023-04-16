@@ -44,7 +44,7 @@ void EventManager::loop(void) {
 
     log_i("[Event Manager]: Sensor at port %d has range: %d \n", port,
           range->range);
-    if (range->range > 0 && range->range <= 2000) {
+    if (range->range > 0 && range->range <= MAX_RANGE) {
       notifyAll((TOFSensors_e)port);
     }
   }
