@@ -3,6 +3,18 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.0](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.1.0...v1.2.0) (2023-04-16)
+
+
+### 🍕 Features
+
+* user config variable for max range ([ce6cdc0](https://github.com/ZanzyTHEbar/AdamJames/commit/ce6cdc063e01b6181f9989acd40dc7c7ec0e844c))
+
+
+### 🐛 Bug Fixes
+
+* add comment to user variable ([2fddcb5](https://github.com/ZanzyTHEbar/AdamJames/commit/2fddcb57a9e529ed7f808e2d2d567c69d34077ec))
+
 ## [1.1.0](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.0.1...v1.1.0) (2023-04-08)
 
 
