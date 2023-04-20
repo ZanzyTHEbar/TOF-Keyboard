@@ -37,6 +37,7 @@ void Tof::loop() {
 void Tof::average() {
   VL53L0X_RangingMeasurementData_t measure;
   int averaging = 0;  //  Holds value to average readings
+  int distance = 0;   //  Holds result of the average readings
 
   // Get a sampling of 5 readings from sensor
   for (int i = 0; i < NUM_SAMPLES; i++) {
@@ -46,21 +47,21 @@ void Tof::average() {
           id);
       return;
     }
-
     averaging += measure.RangeMilliMeter;
 
-    if (measure.RangeStatus != 4) {
-      rangeData = {
-          averaging / 5,
-          measure.RangeStatus,
-          measure.SignalRateRtnMegaCps,
-      };
-    }
+    distance = averaging / NUM_SAMPLES;
 
     delay(55);  // Wait 55 ms between each read
                 // According to datasheet time between each read
                 //  is -38ms +/- 10ms. Waiting 55 ms assures each
                 //  read is from a different sample
+  }
+  if (measure.RangeStatus != 4) {
+    rangeData = {
+        distance,
+        measure.RangeStatus,
+        measure.SignalRateRtnMegaCps,
+    };
   }
 }
 
