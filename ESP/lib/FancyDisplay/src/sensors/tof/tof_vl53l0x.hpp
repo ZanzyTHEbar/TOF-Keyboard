@@ -38,6 +38,8 @@ class Tof {
 
   RangeData_t rangeData;
 
+  void average();
+
  public:
   Tof(Adafruit_VL53L0X* psensor,
       TwoWire* pWire,
