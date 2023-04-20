@@ -15,7 +15,7 @@ Tof::Tof(Adafruit_VL53L0X* psensor,
 Tof::~Tof() {}
 
 void Tof::begin() {
-  if (psensor->begin(id, false, i2c_object,
+  if (!psensor->begin(id, false, i2c_object,
                       Adafruit_VL53L0X::VL53L0X_SENSE_LONG_RANGE)) {
     log_e("[TOF Sensor]: Failed to boot VL53L0X:  0x%02X", id);
     log_e("[TOF Sensor]: Pausing execution until reset");
@@ -41,7 +41,7 @@ void Tof::average() {
 
   // Get a sampling of 5 readings from sensor
   for (int i = 0; i < NUM_SAMPLES; i++) {
-    if (!psensor->rangingTest(&measure, false)) {
+    if (psensor->rangingTest(&measure, false)) {
       log_e(
           "[TOF Sensor]: Ranging Test Failed - Sensor: 0x%02X is unresponsive",
           id);
