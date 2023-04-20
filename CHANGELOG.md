@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.5](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.4...v1.2.5) (2023-04-20)
+
+
+### 🐛 Bug Fixes
+
+* We halfed the default sensor reading from 10 to 5 and adjusted the max range to 1.5m ([7cbf235](https://github.com/ZanzyTHEbar/AdamJames/commit/7cbf235b456c539a1690967337ea2e43a373bddd))
+
 ## [1.2.4](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.3...v1.2.4) (2023-04-20)
 
 
