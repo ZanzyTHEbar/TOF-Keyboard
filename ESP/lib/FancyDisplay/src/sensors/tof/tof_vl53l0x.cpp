@@ -50,11 +50,6 @@ void Tof::average() {
     averaging += measure.RangeMilliMeter;
 
     distance = averaging / NUM_SAMPLES;
-
-    delay(55);  // Wait 55 ms between each read
-                // According to datasheet time between each read
-                //  is -38ms +/- 10ms. Waiting 55 ms assures each
-                //  read is from a different sample
   }
   if (measure.RangeStatus != 4) {
     rangeData = {
@@ -62,6 +57,7 @@ void Tof::average() {
         measure.RangeStatus,
         measure.SignalRateRtnMegaCps,
     };
+    measure.RangeMilliMeter = 0;
   }
 }
 
