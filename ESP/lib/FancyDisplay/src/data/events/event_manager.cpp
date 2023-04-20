@@ -48,5 +48,4 @@ void EventManager::loop(void) {
       notifyAll((TOFSensors_e)port);
     }
   }
-  delay(100);
 }
