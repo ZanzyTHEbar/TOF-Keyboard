@@ -3,6 +3,14 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.1](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.0...v1.2.1) (2023-04-20)
+
+
+### 🐛 Bug Fixes
+
+* add averaging logic ([e6a8f54](https://github.com/ZanzyTHEbar/AdamJames/commit/e6a8f5483e77f549be5a2b667c0fbf459057cafe))
+* bug in averaging logic ([faa8506](https://github.com/ZanzyTHEbar/AdamJames/commit/faa8506161a1a3dce9cc457234a755639d79c301))
+
 ## [1.2.0](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.1.0...v1.2.0) (2023-04-16)
 
 
