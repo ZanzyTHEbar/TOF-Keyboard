@@ -48,7 +48,6 @@ void Tof::average() {
       return;
     }
     averaging += measure.RangeMilliMeter;
-
     distance = averaging / NUM_SAMPLES;
   }
   if (measure.RangeStatus != 4) {
