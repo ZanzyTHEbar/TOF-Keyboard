@@ -3,6 +3,15 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.6](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.5...v1.2.6) (2023-04-25)
+
+
+### 🐛 Bug Fixes
+
+* last sensor failing bug ([57a3081](https://github.com/ZanzyTHEbar/AdamJames/commit/57a308183b2d51dab2c96deb1eef1110f52aaf4b))
+* last sensor failing bug ([3c4544a](https://github.com/ZanzyTHEbar/AdamJames/commit/3c4544acaecb0a353d76f8966db2f63f1f130428))
+* last sensor failing bug ([cbc9f4d](https://github.com/ZanzyTHEbar/AdamJames/commit/cbc9f4d75c59d6dae32ae23ab19050fb722888a8))
+
 ## [1.2.5](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.4...v1.2.5) (2023-04-20)
 
 
