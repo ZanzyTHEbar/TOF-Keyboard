@@ -13,7 +13,7 @@ void EventManager::begin(void) {
   _tof_sensors.reserve(8);
 
   // scan for sensors
-  for (uint8_t port = 0; port < _tof_sensors.size(); ++port) {
+  for (uint8_t port = 0; port <= 8; ++port) {
     log_i("[Event Manager]: Scanning Port: %d \n", port);
     uint8_t* dev = multiplexer.scan(port);
     while (*dev) {
