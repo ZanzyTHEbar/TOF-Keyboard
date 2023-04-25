@@ -33,7 +33,7 @@ void EventManager::begin(void) {
 
 void EventManager::loop(void) {
   // loop through multiplexer ports
-  for (uint8_t port = 0; port < _tof_sensors.size(); ++port) {
+  for (uint8_t port = 0; port <= _tof_sensors.size(); ++port) {
     // select the port
     log_d("[Event Manager]: Selecting port %d", port);
     multiplexer.selectPort(port);
