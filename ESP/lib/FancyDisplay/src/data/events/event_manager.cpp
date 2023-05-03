@@ -11,9 +11,8 @@ void EventManager::begin(void) {
   log_d("[Event Manager]: Scanning for connected sensors");
 
   _tof_sensors.reserve(8);
-
   // scan for sensors
-  for (uint8_t port = 0; port <= 8; ++port) {
+  for (uint8_t port = 0; port <= 8; port++) {
     log_i("[Event Manager]: Scanning Port: %d \n", port);
     uint8_t* dev = multiplexer.scan(port);
     while (*dev) {
@@ -33,7 +32,7 @@ void EventManager::begin(void) {
 
 void EventManager::loop(void) {
   // loop through multiplexer ports
-  for (uint8_t port = 0; port <= _tof_sensors.size(); ++port) {
+  for (uint8_t port = 0; port < _tof_sensors.size(); port++) {
     // select the port
     log_d("[Event Manager]: Selecting port %d", port);
     multiplexer.selectPort(port);
