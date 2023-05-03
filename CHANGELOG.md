@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.7](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.6...v1.2.7) (2023-05-03)
+
+
+### 🐛 Bug Fixes
+
+* bug in event manager loop ([f13b7d0](https://github.com/ZanzyTHEbar/AdamJames/commit/f13b7d0aa33277fd559c98514adde3c88f3bbf36))
+
 ## [1.2.6](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.5...v1.2.6) (2023-04-25)
 
 
