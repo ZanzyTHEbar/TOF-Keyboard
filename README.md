@@ -1,12 +1,14 @@
-# Project for Adam James
+# Project for TOF based keyboard emulation
 
 ## Description
 
-This is a project for Adam James. It is a simple esp32s3 USB application that will:
+This is a projectthat was contracted, and uses IR based Time of Flight sensors to trigger Keyboard presses via USB HID when certain thresholds are met. It is a simple esp32s3 USB application that will:
 
 * Multiplex some TOF sensors
 * Act as a keyboard for a PC
 * Send data to a PC via USB CDC or HID
+
+> **Note**: This project can use any HID based MCU - like the Arduino Pro Micro.
 
 ## Hardware
 
