@@ -10,9 +10,22 @@ Tof::Tof(Adafruit_VL53L0X* psensor,
       id(id),
       shutdown_pin(shutdown_pin),
       interrupt_pin(interrupt_pin),
-      rangeData() {}
+      rangeData(),
+      _index(0),
+      _total(0),
+      _average(0),
+      _sum{0} {
+  _sum.reserve(NUM_SAMPLES);
+}
 
-Tof::~Tof() {}
+Tof::~Tof() {
+  log_d("[TOF Sensor]: Destroying TOF Sensor");
+  delete psensor;
+  delete i2c_object;
+  // free the vector
+  _sum.clear();
+  log_d("[TOF Sensor]: TOF Sensor Destroyed");
+}
 
 void Tof::begin() {
   if (!psensor->begin(id, false, i2c_object,
@@ -36,20 +49,21 @@ void Tof::loop() {
 
 void Tof::average() {
   VL53L0X_RangingMeasurementData_t measure;
-  int averaging = 0;  //  Holds value to average readings
-  int distance = 0;   //  Holds result of the average readings
 
-  // Get a sampling of 5 readings from sensor
-  for (int i = 0; i < NUM_SAMPLES; i++) {
-    if (psensor->rangingTest(&measure, false)) {
-      log_e(
-          "[TOF Sensor]: Ranging Test Failed - Sensor: 0x%02X is unresponsive",
-          id);
-      return;
-    }
-    averaging += measure.RangeMilliMeter;
-    distance = averaging / NUM_SAMPLES;
+  //* Rolling Average
+  int distance = 0;
+  this->_total = _total - _sum.at(_index);
+  _sum.at(_index) = measure.RangeMilliMeter;
+  _total = _total + _sum.at(_index);
+  _index++;
+
+  if (_index >= NUM_SAMPLES) {
+    _index = 0;
   }
+
+  distance = _total / NUM_SAMPLES;
+  //* End Rolling Average
+
   if (measure.RangeStatus != 4) {
     rangeData = {
         distance,

@@ -3,6 +3,7 @@
 #include <Adafruit_VL53L0X.h>
 #include <Arduino.h>
 #include <Wire.h>
+#include <vector>
 
 #define XSHUT_PIN A1
 
@@ -37,6 +38,11 @@ class Tof {
   };
 
   RangeData_t rangeData;
+
+  byte _index;
+  int _total;
+  int _average;
+  std::vector<uint16_t> _sum;
 
   void average();
 
