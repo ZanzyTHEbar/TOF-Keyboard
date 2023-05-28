@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.8](https://github.com/ZanzyTHEbar/TOF-Keyboard/compare/v1.2.7...v1.2.8) (2023-05-28)
+
+
+### 🐛 Bug Fixes
+
+* impl rolling average instead of for loop ([e695072](https://github.com/ZanzyTHEbar/TOF-Keyboard/commit/e695072f353dcf957d501dfa68da11f3019aca86))
+
 ## [1.2.7](https://github.com/ZanzyTHEbar/AdamJames/compare/v1.2.6...v1.2.7) (2023-05-03)
 
 
