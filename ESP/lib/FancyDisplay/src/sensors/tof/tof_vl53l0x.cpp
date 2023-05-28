@@ -53,7 +53,7 @@ void Tof::average() {
   //* Rolling Average
   int distance = 0;
   this->_total = _total - _sum.at(_index);
-  _sum.at(_index) = measure.RangeMilliMeter;
+  _sum[_index] = measure.RangeMilliMeter;
   _total = _total + _sum.at(_index);
   _index++;
 
