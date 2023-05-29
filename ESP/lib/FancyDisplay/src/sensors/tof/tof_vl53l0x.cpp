@@ -50,18 +50,36 @@ void Tof::loop() {
 void Tof::average() {
   VL53L0X_RangingMeasurementData_t measure;
 
+  log_d("[VL53L0X]: Average");
   //* Rolling Average
   int distance = 0;
-  this->_total = _total - _sum.at(_index);
+
+  log_d("[VL53L0X]: _index: %d", _index);
+
+  _total = _total - _sum[_index];
+
+  log_d("[VL53L0X]: _total: %d", _total);
+  log_d("[VL53L0X]: value: %d", measure.RangeMilliMeter);
+
   _sum[_index] = measure.RangeMilliMeter;
-  _total = _total + _sum.at(_index);
-  _index++;
+
+  log_d("[VL53L0X]: _sum: %d", _sum[_index]);
+
+  _total = _total + _sum[_index];
+
+  log_d("[VL53L0X]: _total: %d", _total);
+
+  _index = (_index++) % NUM_SAMPLES;
+
+  log_d("[VL53L0X]: Next _index: %d", _index);
 
   if (_index >= NUM_SAMPLES) {
     _index = 0;
   }
 
   distance = _total / NUM_SAMPLES;
+
+  log_d("[VL53L0X]: Distance: %d", distance);
   //* End Rolling Average
 
   if (measure.RangeStatus != 4) {
