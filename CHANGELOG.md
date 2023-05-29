@@ -3,6 +3,13 @@
 [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 > All notable changes to this project will be documented in this file
 
+## [1.2.10](https://github.com/ZanzyTHEbar/TOF-Keyboard/compare/v1.2.9...v1.2.10) (2023-05-29)
+
+
+### 🐛 Bug Fixes
+
+* moving average ([6c40183](https://github.com/ZanzyTHEbar/TOF-Keyboard/commit/6c4018359e30e0cb9aec18772a598cc46d1d1fc4))
+
 ## [1.2.9](https://github.com/ZanzyTHEbar/TOF-Keyboard/compare/v1.2.8...v1.2.9) (2023-05-28)
 
 
